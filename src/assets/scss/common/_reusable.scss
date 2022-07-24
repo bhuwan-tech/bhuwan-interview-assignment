@@ -1,0 +1,79 @@
+@import "./variables";
+.wrapper {
+  background: $wrapper-bg;
+  min-height: calc(100vh - 24px);
+  margin: 12px 0;
+  padding: 15px;
+}
+
+// Page Title
+
+.title {
+  h6 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+}
+
+.title-btn {
+  margin-top: 10px;
+  @include mobile {
+    text-align: right;
+    margin-top: 0;
+  }
+}
+
+// Buttons
+
+.btn {
+  font-size: $f-14;
+  border-radius: 3px;
+
+  &.btn-primary {
+    background: $dark-gray;
+    border-color: $dark-gray;
+    &:focus {
+      box-shadow: none;
+    }
+  }
+
+  &.btn-outline-primary {
+    background: none;
+    color: $primary;
+    border-color: $primary;
+    &:focus {
+      box-shadow: none;
+    }
+  }
+}
+
+// Card
+
+.card {
+  margin: 0;
+  background: $white;
+  border-color: rgba($color: $dark-gray, $alpha: 0.3);
+  border-radius: 2px;
+
+  .card-body {
+    padding: 10px;
+  }
+}
+
+.flex-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba($color: $dark-gray, $alpha: 0.3);
+  padding-bottom: 15px;
+
+  h4 {
+    font-size: 18px;
+  }
+
+  .material-icons {
+    font-size: $f-18;
+    color: $primary;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+// FONTS TYPOGRAPHY
+$font-primary: "Lato", sans-serif;
+
+// FONT SIZES
+$f-10: 10px;
+$f-12: 12px;
+$f-14: 14px;
+$f-16: 16px;
+$f-18: 18px;
+$f-20: 20px;
+$f-22: 22px;
+$f-24: 24px;
+$f-26: 26px;
+$f-28: 28px;
+$f-30: 30px;
+$f-32: 32px;
+$f-34: 34px;
+$f-36: 36px;
+
+// COLORS
+$primary: #f2af37;
+$primary-bg: #f5f7fc;
+$white: #ffffff;
+$black: #000000;
+$red: #f00;
+$wrapper-bg: #f4f4f4;
+$light-gray: #e6e6e6;
+$dark-gray: #757575;
+$icon-bg: #032f33;
+
+// RESOLUTIONS
+$mobile: "(min-width: 575px)";
+$tablet: "(min-width: 768px)";
+$tabletLandscape: "(min-width: 992px)";
+$desktop: "(min-width: 1200px)";
+$desktopLg: "(min-width: 1400px)";
